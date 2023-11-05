@@ -7,10 +7,26 @@ orange      #e8702a	(232,112,42)
 */
 
 body {
-    
+    background-color: #0c457d;
+    font-family: "system-ui";
+}
+
+h1 {
+    color: #e8702a
+}
+
+h2 {
+    color: #6bd2db
+}
+
+h3 {
+    color: #6bd2db
 }
 
 .portfolio-item{
-    background
+    background-color: #0ea7b5;
 }
 
+* {
+    color: white
+  }
