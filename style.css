@@ -27,6 +27,10 @@ h3 {
     background-color: #0ea7b5;
 }
 
+#skills{
+    list-style-type: "\1F4BB"
+}
+
 * {
     color: white
   }
