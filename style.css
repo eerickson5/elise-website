@@ -31,6 +31,29 @@ h3 {
     list-style-type: "\1F4BB"
 }
 
+#socials-container{
+    top: 50px;
+    right: 50px;
+    position: absolute;
+}
+
+#socials{
+    display:flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.babyIcon{
+    width: 24px;
+    height: 24px;
+    margin: 10px;
+}
+
+.text-xs {
+    font-size: .75rem;
+    line-height: 1rem;
+}
+
 * {
     color: white
   }
