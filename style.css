@@ -29,6 +29,17 @@ h3 {
     font-size:x-large;
 }
 
+h4 {
+    text-align: center;
+}
+
+h5 {
+    color:#ffbe4f;
+    text-align: center;
+    font-size: medium;
+    margin: 0px;
+}
+
 a {
     text-decoration: none;
     font-weight: bold;
@@ -36,6 +47,11 @@ a {
 
 p {
     text-align: start;
+}
+
+button {
+    width: 500px;
+    height: 150px;
 }
 
 .container{
@@ -79,9 +95,14 @@ p {
     justify-content: center;
 }
 
+.job-container {
+    margin-bottom: 100px;
+}
+
 li > h3 {
     text-align: center;
-    color: #0c457d
+    color: #0c457d;
+    margin-bottom: 0px;
 }
 
 #skills{
