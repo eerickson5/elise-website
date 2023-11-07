@@ -39,7 +39,7 @@ p {
 }
 
 .container{
-    width: 65%;
+    width: 70%;
 }
 
 #portfolio,
@@ -55,13 +55,28 @@ p {
 }
 
 .portfolio-item{
-    width: 45%;
+    width: 50%;
     margin: 20px;
     margin-right: 0px;
     padding: 20px;
     border-radius: 15px;
     align-items: center;
-    background-color: #0ea7b5;
+    background-color: rgba(14,167,181, 0.75);
+}
+
+.iphone-screenshot{
+    max-width: 40%;
+    height: auto;
+    flex: 1 1 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.mobile-screenshot-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 li > h3 {
