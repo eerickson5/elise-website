@@ -7,18 +7,20 @@ orange      #e8702a	(232,112,42)
 */
 
 body {
-    background-color: #0c457d;
+    background-color: white;
     font-family: "system-ui";
-    padding: 20px;
+    padding: 30px;
     flex-direction:column;
+    display: flex;
+    background-image: radial-gradient(rgba(12,69,125, 0.9), rgba(12,69,125,1));
 }
 
 h1 {
-    color: #e8702a
+    color: #ffbe4f
 }
 
 h2 {
-    color: #6bd2db;
+    color: #ffbe4f;
     margin-top: 75px;
 }
 
@@ -32,32 +34,39 @@ a {
     font-weight: bold;
 }
 
+p {
+    text-align: start;
+}
+
 .container{
     width: 65%;
 }
 
-#portfolio{
+#portfolio,
+ #blog{
     align-self:flex-end;
+    justify-content: end;
+    text-align: end;
 }
 
 #portfolio-container{
     display:flex; 
     list-style-type: none;
-    justify-content:space-around;
 }
 
 .portfolio-item{
-    background-color: #0ea7b5;
     width: 45%;
     margin: 20px;
+    margin-right: 0px;
     padding: 20px;
-    border-radius: 25px;
+    border-radius: 15px;
     align-items: center;
+    background-color: #0ea7b5;
 }
 
 li > h3 {
-    color: #0c457d;
     text-align: center;
+    color: #0c457d
 }
 
 #skills{
@@ -76,7 +85,7 @@ li > h3 {
     list-style-type: none;
 }
 
-.babyIcon{
+.baby-icon{
     width: 24px;
     height: 24px;
     margin: 10px;
