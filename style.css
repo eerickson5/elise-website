@@ -52,6 +52,7 @@ p {
 button {
     width: 500px;
     height: 150px;
+    background-color: "";
 }
 
 .container{
