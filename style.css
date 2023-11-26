@@ -78,7 +78,7 @@ button {
     padding: 20px;
     border-radius: 15px;
     align-items: center;
-    background-color: rgba(14,167,181, 0.75);
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 .iphone-screenshot{
@@ -102,7 +102,7 @@ button {
 
 li > h3 {
     text-align: center;
-    color: #0c457d;
+    color: #ffbe4f;
     margin-bottom: 0px;
 }
 
